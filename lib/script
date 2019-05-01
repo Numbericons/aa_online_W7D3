@@ -1,0 +1,19 @@
+load 'lib/p01_int_set.rb'
+a = MaxIntSet.new(4)
+a.insert(1)
+
+load 'lib/p01_int_set.rb'
+b = IntSet.new(20)
+b.insert(-5)
+b.remove(-5)
+
+load 'lib/p01_int_set.rb'
+b = ResizingIntSet.new(5)
+b.insert(-5)
+b.remove(-5)
+
+load 'lib/p02_hashing.rb'
+a = Hash.new
+a['apple'] = 5
+a['banana']=10
+c = [["banana", 10], ["apple", 5]]
